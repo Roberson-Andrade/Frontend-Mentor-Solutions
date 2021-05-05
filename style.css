@@ -89,6 +89,7 @@ body {
 }
 
 .text__info__status  {
+    color: var(--stats-headings);
     text-transform: uppercase;
     font-size: 0.7rem;
     letter-spacing: 2px;
@@ -132,11 +133,6 @@ body {
 
 }
 
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 12px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
