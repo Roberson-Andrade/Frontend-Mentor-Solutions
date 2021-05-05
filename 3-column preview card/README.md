@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./design/my-desktop-version.jpg)
-![Screenshot](./design/my-mobile-version.jpg)
+![Screenshot](./design/my-desktop-version.PNG)
+![Screenshot](./design/my-mobile-version.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://roberson-andrade.github.io/Frontend-Mentor-Solutions/3-column%20preview%20card/)
 
 ## My process
 
