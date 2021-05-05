@@ -1,0 +1,172 @@
+:root {
+    --sedans-color: hsl(31, 77%, 52%);
+    --suvs-color: hsl(184, 100%, 22%);
+    --luxury-color: hsl(179, 100%, 13%);
+    --paragraphs-color: hsla(0, 0%, 100%, 0.75);
+    --heading-color: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('./fonts/LexendDeca-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Big Shoulders Display';
+    src: url('./fonts/BigShouldersDisplay-Light.ttf');
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--heading-color);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2em 0;
+}
+
+.card-container > :first-child {
+    border-radius: 2.5% 0 0 2.5%;
+}
+
+.card-container > :last-child {
+    border-radius: 0 2.5% 2.5% 0;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.card h1 {
+    font-size: 2.5em;
+    font-family:'Big Shoulders Display';
+    color: var(--heading-color);
+    font-weight:700;
+    letter-spacing: 1px;
+}
+
+.card p {
+    font-size: 15px;
+    font-family:'Lexend Deca';
+    color: var(--paragraphs-color);
+    line-height: 1.8em;
+    font-weight: 400;
+}
+
+.c-1 {
+    background-color: var(--sedans-color);
+    
+}
+
+.c-1 .card-btn{
+    color: var(--sedans-color);
+    font-weight: 700;
+}
+
+.c-1 .card-btn:active{
+    background-color: var(--sedans-color);
+    font-weight: 700;
+    color: white;
+}
+
+.c-2 {
+    background-color: var(--suvs-color);
+}
+
+.c-2 .card-btn {
+    color: var(--suvs-color);
+    font-weight: 700;
+}
+
+.c-2 .card-btn:active {
+    background-color: var(--suvs-color);
+    font-weight: 700;
+    color: white;
+}
+
+.c-3 {
+    background-color: var(--luxury-color);
+}
+
+.c-3 .card-btn {
+    color: var(--luxury-color);
+    font-weight: 700;
+}
+
+.c-3 .card-btn:active {
+    background-color: var(--luxury-color);
+    font-weight: 700;
+    color: white;
+}
+
+.card-btn {
+    background-color: white;
+    border: 2px solid white;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 50px 0 -20px 0;
+    cursor: pointer;
+}
+
+.card_img {
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 950px) {
+    .card {
+        width: 500px;
+    }
+
+    .card-container > :first-child {
+        border-radius: 2.5% 2.5% 0 0;
+    }
+    
+    .card-container > :last-child {
+        border-radius: 0 0 2.5% 2.5%;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+    .card {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        width: 80%;
+        padding: 15%;
+    }
+   
+}
+
+@media screen and (max-width: 200px) {
+    .card {
+        width: 100%;
+    }
+   
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
