@@ -24,13 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Version](./images/my-desktop-version.png)
-![Mobile Version](./images/my-mobile-version.png)
+![Desktop Version](design/my-desktop-version.PNG)
+![Mobile Version](design/my-mobile-version.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://roberson-andrade.github.io/Frontend-Mentor-Solutions/stats%20preview%20card%20component%20main/)
 
 ## My process
 
