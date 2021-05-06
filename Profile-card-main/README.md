@@ -21,12 +21,12 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Desktop Version](./design/my-deskton-version.png)
-![Mobile Version](./design/my-mobile-version.png)
+![Desktop Version](./design/my-deskton-version.PNG)
+![Mobile Version](./design/my-mobile-version.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://roberson-andrade.github.io/Frontend-Mentor-Solutions/Profile-card-main/)
 
 ## My process
 
@@ -43,6 +43,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Roberson-Andrade)
+- Frontend Mentor - [@Roberson-Andrade](https://www.frontendmentor.io/profile/Roberson-Andrade)
 - Twitter - [@PrazerRobervalt](https://twitter.com/PrazerRobervalt)
 
