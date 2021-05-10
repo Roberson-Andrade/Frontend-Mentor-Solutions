@@ -12,59 +12,72 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
-<body>
+<body onload="dropDownMenu()">
   <div class="container">
     <div class="faq-box">
       <div class="faq-box__images">
-        <img src="./images/illustration-box-desktop.svg" alt="box decoration">
+        <img class="faq-box__images--box" src="./images/illustration-box-desktop.svg" alt="box decoration" aria-hidden="true">
+        
+        <div class="faq-box__images--bg">
+          <div class="faq-box__images__desktop">
+            <img class="faq-box__images__desktop--woman-desktop" src="./images/illustration-woman-online-desktop.svg" alt="Woman illustration desktop">
+            <img class="faq-box__images__desktop--pattern-desktop" src="./images/bg-pattern-desktop.svg" alt="Background pattern desktop">
+          </div>
+
+          <div class="faq-box__images__mobile">
+            <img class="faq-box__images__desktop--woman-mobile" src="./images/illustration-woman-online-mobile.svg" alt="Woman illustration mobile">
+            <img class="faq-box__images__desktop--pattern-mobile" src="./images/bg-pattern-mobile.svg" alt="Background pattern mobile">
+          </div>
+        </div>
       </div>
 
       <div class="faq-box__text">
         <h1 class="title">faq</h1>
+        
         <ul class="faq-text">
           <li class="faq-text__question">
-            <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
-            How many team members can I invite?
-          </li>
+            <p class="question">How many team members can I invite?</p>
 
-          <li class="faq-text__answer">
-            You can invite up to 2 additional users on the Free plan. There is no limit on 
-            team members for the Premium plan.
-          </li>
-
-          <li class="faq-text__question">
+            <p class="answer">
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.
+            </p>
             <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
-            What is the maximum file upload size?
-          </li>
-
-          <li class="faq-text__answer">No more than 2GB. All files in your account must fit your allotted storage space.</li>
-          
-          <li class="faq-text__question">
-            <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
-            How do I reset my password?
-          </li>
-          
-          <li class="faq-text__answer">
-            Click “Forgot password” from the login page or “Change password” from your profile page.
-            A reset link will be emailed to you.
           </li>
           
           <li class="faq-text__question">
+            <p class="question">What is the maximum file upload size?</p>
+
+            <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
             <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
-            Can I cancel my subscription?
+          </li>
+
+          <li class="faq-text__question">  
+            <p class="question">How do I reset my password?</p>
+
+            <p class="answer">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+            <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
+          </li>
+          
+          <li class="faq-text__question">
+            <p class="question">Can I cancel my subscription?</p>
+
+            <p class="answer"> 
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+            <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
           </li>
   
-          <li class="faq-text__answer"> 
-            Yes! Send us a message and we’ll process your request no questions asked.
-          </li>
-         
           <li class="faq-text__question"> 
-            <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
-            Do you provide additional support?
-          </li>
+            <p class="question">Do you provide additional support?</p>
 
-          <li class="faq-text__answer">
-            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            <p class="answer">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+            <img src="./images/icon-arrow-down.svg" alt="arrow down"> 
           </li>
         </ul>
       </div>
@@ -72,10 +85,11 @@
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Roberson Andrade</a>.
     </div>
   </div>
   
   
 </body>
+<script src="./index.js"></script>
 </html>
