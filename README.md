@@ -9,3 +9,5 @@
 
 
 3 - <a href="https://roberson-andrade.github.io/Frontend-Mentor-Solutions/stats%20preview%20card%20component%20main/">Stats preview card component</a>
+
+4 - <a href="https://roberson-andrade.github.io/Frontend-Mentor-Solutions/faq-accordion-card-main/">Faq accordion card </a>

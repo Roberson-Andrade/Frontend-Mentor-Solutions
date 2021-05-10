@@ -21,8 +21,8 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Desktop Version](./design/my-desktop-version.png)
-![Mobile Version](./design/my-mobile-version.PNG)
+![Desktop Version](./design/my-desktop-design.png)
+![Mobile Version](./design/my-mobile-design.PNG)
 
 ### Links
 
