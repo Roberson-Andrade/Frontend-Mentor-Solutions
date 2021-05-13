@@ -10,24 +10,28 @@
 * {
     margin: 0;
     padding:0;
-    box-sizing: border-box;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
 }
 
 h1, h4 {
-    font-size: 20px;
     color: var(--heading-text);
 }
 
 body {
     font-family: 'Manrope', sans-serif;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 500;
     background-color: var(--bgBody-color);
+    box-sizing: border-box;
 }
 
 .container {
     min-height: 100vh;
-    padding: 1rem;
+    padding: 1.6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,34 +41,34 @@ body {
 .article-box {
     display: flex;
     width: 90%;
-    max-width: 900px;
+    max-width: 90rem;
 }
 
 .article-box__images {
-    border: 1px solid green;
+    border: .1rem solid green;
 }
 
 .drawer-img {
     object-fit: cover;
     width: 100%;
     min-height: 100%;
-    border-radius: 1rem 0 0 1rem;
+    border-radius: 1.6rem 0 0 1.6rem;
 }
 
 .article-box__text {
     background-color: #fff;
-    border-radius: 0 1rem 1rem 0;
-    padding: 2.5rem;
+    border-radius: 0 1.6rem 1.6rem 0;
+f
 }
 
 .header-text {
-    
+    font-size: 1.8rem;
 }
 
 .body-text {
     text-align: justify;
     color: var(--paragraph-text);
-    margin: 1.3rem 0 1rem 0;
+    margin: 1.8rem 0 1.8rem 0;
     padding-right: 1.5rem;
 }
 
@@ -72,6 +76,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;
 }
 
 .profile-box-image {
@@ -80,34 +85,39 @@ body {
 }
 
 .profile-image {
-    height: 50px;
-    border-radius: 50px;
+    height: 5rem;
+    border-radius: 5rem;
 }
 
 .profile-name {
-    margin-left: 0.5rem ;
+    margin-left: .8rem ;
 }
 
 .date {
     color: var(--muted-color);
     font-weight:500;
-    font-size: 12px;
+    font-size: 1.2rem;
     display: block;
-    margin-top: 0.2rem;
+    margin-top: .3rem;
 }   
 
 @media screen and (max-width:925px) {
     .article-box {
         flex-direction: column;
-        max-width: 420px;
+        max-width: 42rem;
     }
 
     .drawer-img {
-        border-radius: 1rem 1rem 0 0;
+        border-radius: 1.6rem 1.6rem 0 0;
     }
 
+    .article-box__images {
+        margin-bottom: -.4rem;
+    }
+
+
     .article-box__text {
-        border-radius: 0 0 1rem 1rem;
+        border-radius: 0 0 1.6rem 1.6rem;
     }
 }
 
