@@ -26,12 +26,12 @@ Users should be able to:
 ![Desktop](design/my-desktop-version.PNG)
 ![Active Desktop](design/my-active-desktop-version.PNG)
 ![Mobile](design/my-mobile-version.PNG)
-![Active Mobile](design/my-active-desktop-version.PNG)
+![Active Mobile](design/my-active-mobile-version.PNG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Roberson-Andrade/Frontend-Mentor-Solutions/tree/master/article-preview-component-master)
+- Live Site URL: [Add live site URL here](https://roberson-andrade.github.io/Frontend-Mentor-Solutions/article-preview-component-master/)
 
 ## My process
 
