@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   
+
   <title>Frontend Mentor | Article preview component</title>
 </head>
 <body>
@@ -16,19 +17,21 @@
         <img class="drawer-img" src="./images/drawers.jpg" alt="drawers">
       </div>
 
-      <div class="article-box__text">
-        <h1 class="header-text">
-          Shift the overall look and feel by adding these wonderful 
-          touches to furniture in your home
-        </h1>
-      
-        <p class="body-text">
-          Ever been in a room and felt like something was missing? Perhaps 
-          it felt slightly bare and uninviting. I’ve got some simple tips 
-          to help you make any room feel complete.
-        </p>
+      <div class="article-box__body">
+        <div class="article-box__body__text">
+          <h1 class="header-text">
+            Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home
+          </h1>
+        
+          <p class="body-text">
+            Ever been in a room and felt like something was missing? Perhaps 
+            it felt slightly bare and uninviting. I’ve got some simple tips 
+            to help you make any room feel complete.
+          </p>
+        </div>
 
-        <div class="bottom-text">
+        <div class="article-box__body__bottom" id="bottom">
           <div class="profile-box-image">
             <img class="profile-image" src="./images/avatar-michelle.jpg" alt="avatar image">
            
@@ -38,10 +41,32 @@
               </h4>
             </div>
           </div>
+  
+          <button class="profile-btn" id="btn-share">
+            <div class="active-state" id="active-state" >
+              <div class="profile-btn-tooltip">
+                <span>share</span>
+                <svg class="social-icon">
+                  <use xlink:href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
 
-          <div class="profile-btn">
-            Share
-          </div>
+                <svg class="social-icon">
+                  <use xlink:href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+
+                <svg class="social-icon">
+                  <use xlink:href="./images/sprite.svg#icon-pinterest-with-circle"></use>
+                </svg>
+              </div>
+
+              <div class="profile-btn-active-triangle"></div>
+            </div>
+
+          
+            <svg class="share-icon" id="share-icon">
+              <use xlink:href="./images/sprite.svg#icon-mail-forward"></use>
+            </svg>
+          </button>
           
         </div>
       </div>
@@ -49,12 +74,9 @@
 
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/Roberson-Andrade">Roberson Andrade</a>.
     </div>
   </div>
-
-  
-  
-  
 </body>
+<script src="js/app.js"></script>
 </html>
