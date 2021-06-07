@@ -1,0 +1,57 @@
+.header {
+    
+    display: flex;
+    flex-direction: column;
+    background-image: url('/images/bg-pattern-intro.svg'), linear-gradient(to right, var(--color-bg-very-light), var(--color-bg-light));
+    background-position: top 52%left 20% ;
+    border-radius: 0 0 0 8rem;
+
+    &__logo {
+        height: 4rem;
+        margin-right: 4rem;
+        
+        &__img {
+            height: 100%;
+        }
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center;
+        padding: 4rem 2rem;
+        width: 100%;
+        max-width: 140rem;
+
+        &__list {
+            list-style: none;
+            flex: 1;
+            display: flex;
+        }
+
+        &__item {
+            
+            padding: 2rem;
+
+            &--login {
+                margin-left: auto;
+            }
+        }
+
+        &__link,
+        &__link:link,
+        &__link:visited {
+            text-decoration: none;
+            color: rgba(white, .8);
+            font-weight: 600;
+        }
+        
+    }
+
+    &__body {
+        text-align: center;
+        padding: 10rem 5rem;
+        padding-bottom: 15rem;
+    }
+}

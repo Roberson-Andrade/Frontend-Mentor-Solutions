@@ -1,0 +1,26 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: var(--default-font-size);
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+.heading-primary {
+    color: var(--color-text);
+    font-size: 6rem;
+    font-weight: 600;
+
+    &--sub {
+        font-size: var(--default-font-size);
+        font-weight: 300;
+        color: var(--color-header-text);
+    }
+}
+
+.heading-secondary {
+
+}
