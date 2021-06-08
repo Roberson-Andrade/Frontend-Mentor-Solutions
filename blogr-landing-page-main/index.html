@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   
@@ -26,13 +26,42 @@
       </div>
 
       <ul class="header__nav__list">
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Product</a></li>
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Company</a></li>
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Connect</a></li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Product</a>
+          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow">
+
+          <ul class="header__nav__list dropdown-menu dropdown-menu--1">
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Overview</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Pricing</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Marketplace</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Features</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Integrations</a></li>
+          </ul>
+        </li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Company</a>
+          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow">
+
+          <ul class="header__nav__list  dropdown-menu  dropdown-menu--2">
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">About</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Team</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Blog</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Careers</a></li>
+          </ul>
+        </li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Connect</a>
+          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow">
+
+          <ul class="header__nav__list  dropdown-menu  dropdown-menu--3">
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Contact</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Newsletter</a></li>
+            <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">LinkedIn</a></li>
+          </ul>
+        </li>
         <li class="header__nav__item header__nav__item--login"><a href="#" class="header__nav__link">Login</a></li>
       </ul>
 
-      
       <a href="#" class="btn btn--white">Sign Up</a>
     </div>
 
@@ -44,51 +73,51 @@
     </div>
   </header>
 
-  <!-- Product
+  <main>
+    <section class="section-introduction">
+      <h2 class="heading-secondary u-margin-bottom-large">Designed for the future</h2>
+      
+      <div class="section-introduction__box">
+        <div class="section-introduction__text">
+          <h3 class="heading-tertiary">Introducing an extensible editor</h3>
+          <p class="paragraph">
+            Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+            The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+            videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+            change the looks of a blog.
+          </p>
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
+          <h3 class="heading-tertiary">Introducing an extensible editor</h3>
+          <p class="paragraph">
+            Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+            by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+          </p>
+        </div>
 
-  Company
+        <div class="section-introduction__img-box">
+          <img src="./images/illustration-editor-desktop.svg" alt="Illustration" class="section-introduction__img">
+        </div>
+      </div>
+        
+    </section>
 
-  About
-  Team
-  Blog
-  Careers
+    <section class="section-phone">
+      <div class="section-phone__img-box">
+        <img src="./images/illustration-phones.svg" alt="Phone illustration" class="section-phone__img">
+      </div>
 
-  Connect
+      <div class="section-phone__text">
+        <h2 class="heading-secondary text-white">State of the Art Infrastructure</h2>
+        <p class="paragraph text-white">
+          With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        </p>
 
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
+      </div>
+    </section>
+  </main>
 
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
-  Designed for the future
-
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
-
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+  <!--
 
   Free, open, simple
   Blogr is a free and open source application backed by a large community of helpful developers. It supports 
@@ -124,5 +153,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="./js/index.js"></script>
 </body>
 </html>
