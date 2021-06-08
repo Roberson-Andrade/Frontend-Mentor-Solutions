@@ -1,0 +1,45 @@
+.dropdown-menu {
+    position: absolute;
+    left: -4rem;
+    top: 2rem;
+
+    flex-direction: column;
+    background-color: var(--color-white);
+
+    font-weight: 600;
+    font-size: 1.4rem;
+    border-radius: .5rem;
+    margin: 4rem;
+    padding: 3rem 2rem;
+    text-align: start;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-1rem);
+    transition: all .2s;
+
+    
+
+    &__item {
+        padding: .7rem ;
+        padding-right: 4rem;
+
+    }
+
+    & li a {
+        color: var(--color-bg-body-gray-dark);
+    }
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        display: inline-block;
+        text-decoration: none;
+ 
+    }
+
+    &__link:active {
+        font-weight: 700;
+    }
+}

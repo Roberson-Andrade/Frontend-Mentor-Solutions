@@ -1,0 +1,60 @@
+.section-introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12rem 2rem;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20rem;
+
+    &__box {
+        display: flex;
+        max-width: 130rem;
+    }
+
+    &__text {
+        text-align: start;
+        padding: 3rem;
+    }
+
+    &__img-box {
+        flex: 0 0 50%;
+        position: relative;
+
+    }
+
+    &__img {    
+        display: block;
+        position: absolute;
+        top: -20rem;
+        left: 18rem;
+    }   
+}
+
+.section-phone {
+    display: flex;
+    padding: 12rem 2rem;
+    margin-bottom: 10rem;
+
+    background-image: url('../images/bg-pattern-circles.svg'), linear-gradient(to right top, var(--color-bg-body-gray-dark), var(--color-bg-body-dark));
+    background-repeat: no-repeat;
+    background-position: bottom 15% left -20%;
+
+    border-radius: 0 10rem ;
+
+    &__img-box {
+        flex: 0 0 50%;
+        position: relative;
+    }
+
+    &__img {
+        display: block;
+        position: absolute;
+        top: -20rem;
+        left: 15rem;
+    }
+
+    &__text {
+        padding-right: 20rem;
+    }
+}
