@@ -1,0 +1,17 @@
+[data-anime="right"] {
+    opacity: 0;
+    transform: translateX(10rem);
+    transition: all 1s;
+}
+
+[data-anime="left"] {
+    opacity: 0;
+    transform: translateX(-10rem);
+    transition: all 1s;
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translateX(0rem);
+}
+

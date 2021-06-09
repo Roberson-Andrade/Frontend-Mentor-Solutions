@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-footer-bg);
+    padding: 6rem 25rem 6rem 4rem;
+
+    border-radius: 0 10rem 0 0;
+    height: 40vh;
+
+    &__logo-box {
+
+    }
+
+    &__logo {
+
+    }
+
+    &__nav {
+        list-style: none;
+
+        &__item {
+            padding: .7rem .5rem;
+            color: var(--color-footer-text);
+
+            &:first-child {
+                color: var(--color-white);
+                font-weight: 600;
+                margin-bottom: 1.5rem
+            }
+        }
+
+        &__link,
+        &__link:visited,
+        &__link:link {
+            text-decoration: none;
+            color:currentColor;
+            font-size: 1.4rem;
+        }
+
+        &__link:active {
+            font-weight: 600;
+        }
+
+        &__link:hover {
+            border-bottom: 2px solid var(--color-white);
+        }
+    }
+
+}

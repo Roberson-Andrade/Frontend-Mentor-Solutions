@@ -20,4 +20,22 @@ function dropdownButton() {
     })
 }
 
+function scrollMoviment() {
+    const imgs = document.querySelectorAll('[data-anime]')
+    const animationClass = 'animate'
+
+    window.addEventListener('scroll', () => {
+        const windowTop = window.pageYOffset + (window.innerHeight * 3) / 4
+
+        imgs.forEach(e => {
+            if(windowTop > e.offsetTop) {
+                e.classList.add(animationClass)
+            } else {
+                e.classList.remove(animationClass)
+            }
+        })
+    })
+}
+
+scrollMoviment()
 dropdownButton()

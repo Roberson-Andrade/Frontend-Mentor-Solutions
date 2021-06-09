@@ -55,7 +55,8 @@
             font-weight: 600;
         }
 
-        &__link:active {
+        &__link:active,
+        &__link:hover {
             color:var(--color-white);
             border-bottom: 2px solid var(--color-white);
         }
