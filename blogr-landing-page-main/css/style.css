@@ -193,9 +193,12 @@ body {
   font-size: 1.4rem;
 }
 .footer__nav__link:active {
+<<<<<<< HEAD
   font-weight: 600;
 }
 .footer__nav__link:hover {
+=======
+>>>>>>> 63cb936b586a2301bb938501a3383962ed09443a
   border-bottom: 2px solid var(--color-white);
 }
 
