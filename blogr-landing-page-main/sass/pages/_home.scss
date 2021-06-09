@@ -58,3 +58,25 @@
         padding-right: 20rem;
     }
 }
+
+.section-laptop {
+    display: flex;
+    padding: 12rem 2rem;
+    margin-bottom: 10rem;
+
+    &__img-box {
+        flex: 0 0 50%;
+        position: relative;
+    }
+
+    &__img {
+        display: block;
+        position: absolute;
+        top: -15rem;
+        right: 8rem;
+    }
+
+    &__text {
+        padding: 7rem;
+    }
+}
