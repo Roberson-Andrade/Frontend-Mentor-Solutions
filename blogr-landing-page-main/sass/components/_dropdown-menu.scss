@@ -19,16 +19,36 @@
     transform: translateY(-1rem);
     transition: all .2s;
 
-    
+    @include respond(tab-land) {
+
+        position: relative;
+        background-color: rgba(hsl(207, 13%, 34%), .1);
+
+        left: 0rem;
+        top: 0rem;
+
+        padding: 0;
+        margin: .5rem 0;
+
+        text-align: center;
+        width: 100%;
+    }
 
     &__item {
         padding: .7rem ;
         padding-right: 4rem;
 
+        @include respond(tab-land) {
+            padding: 1rem;
+        }
     }
 
     & li a {
         color: var(--color-bg-body-gray-dark);
+        @include respond(tab-land) {
+            color:rgba(hsl(208, 49%, 10%), .8);
+        }
+        
     }
 
     &__link,

@@ -8,13 +8,13 @@
         font-weight: 600;
         border: 1px solid var(--color-text);
         border-radius: 2.5rem;
-        padding: 1.5rem 2rem;
     }
     
     &--white {
         background-color: var(--color-white);
         color: var(--color-bg-light);
         transition: all .2s;
+        padding: 1.5rem 2rem;
 
         &:hover {
             box-shadow: 0 1rem 3rem rgba(black, .3);
@@ -33,6 +33,7 @@
     &--transparent {
         color: var(--color-white);
         transition: all .2s;
+        padding: 1.5rem 2rem;
 
         &:hover {
             box-shadow: 0 1rem 3rem rgba(black, .3);
@@ -45,6 +46,27 @@
             background-color: var(--color-white);
             color: var(--color-primary-light);
             border: none;
+        }
+        
+    }
+
+    &--gradient {
+        background-image: linear-gradient(to right, var(--color-bg-very-light), var(--color-bg-light));;
+        color: var(--color-white);
+        padding: 1.5rem 3rem;
+    }
+
+    &--desktop {
+        @include respond(tab-land) {
+            display: none;
+        }
+    }
+
+    &--mobile {
+        display: none;
+
+        @include respond(tab-land) {
+            display: block;
         }
     }
 }

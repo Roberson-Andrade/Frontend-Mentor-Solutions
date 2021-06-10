@@ -28,7 +28,8 @@
       <ul class="header__nav__list">
         <li class="header__nav__item">
           <a href="#" class="header__nav__link">Product</a>
-          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow">
+          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow-light">
+          <img src="./images/icon-arrow-dark.svg" alt="arrow icon" class="header__nav__arrow-dark">
 
           <ul class="header__nav__list dropdown-menu dropdown-menu--1">
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Overview</a></li>
@@ -38,10 +39,12 @@
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Integrations</a></li>
           </ul>
         </li>
+
         <li class="header__nav__item">
           <a href="#" class="header__nav__link">Company</a>
-          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow">
-
+          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow-light">
+          <img src="./images/icon-arrow-dark.svg" alt="arrow icon" class="header__nav__arrow-dark">
+          
           <ul class="header__nav__list  dropdown-menu  dropdown-menu--2">
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">About</a></li>
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Team</a></li>
@@ -49,9 +52,11 @@
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Careers</a></li>
           </ul>
         </li>
+        
         <li class="header__nav__item">
           <a href="#" class="header__nav__link">Connect</a>
-          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow">
+          <img src="./images/icon-arrow-light.svg" alt="arrow icon" class="header__nav__arrow-light">
+          <img src="./images/icon-arrow-dark.svg" alt="arrow icon" class="header__nav__arrow-dark">
 
           <ul class="header__nav__list  dropdown-menu  dropdown-menu--3">
             <li class="dropdown-menu__item"><a href="#" class="dropdown-menu__link">Contact</a></li>
@@ -60,9 +65,14 @@
           </ul>
         </li>
         <li class="header__nav__item header__nav__item--login"><a href="#" class="header__nav__link">Login</a></li>
+        <li class="btn--desktop"><a href="#" class="btn btn--white">Sign Up</a></li>
+        <li class="btn--mobile"><a href="#" class="btn  btn--white btn--gradient">Sign Up</a></li>
       </ul>
 
-      <a href="#" class="btn btn--white">Sign Up</a>
+      <div class="header__hamburger-button">
+        <img src="./images/icon-hamburger.svg" alt="" class="header__hamburger-button__inactive">
+        <img src="./images/icon-close.svg" alt="" class="header__hamburger-button__active">
+      </div>
     </div>
 
     <div class="header__body">
@@ -93,9 +103,10 @@
             by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
           </p>
         </div>
-
+  
         <div data-anime="right" class="section-introduction__img-box">
-          <img src="./images/illustration-editor-desktop.svg" alt="Illustration" class="section-introduction__img">
+          <img src="./images/illustration-editor-desktop.svg" alt="Editor illustration" class="section-introduction__img-desktop">
+          <img src="./images/illustration-editor-mobile.svg" alt="Editor illustration mobile" class="section-introduction__img-mobile">
         </div>
       </div>
         
@@ -118,7 +129,8 @@
 
     <section class="section-laptop">
       <div data-anime="left" class="section-laptop__img-box">
-        <img src="./images/illustration-laptop-desktop.svg" alt="Laptop Illustration" class="section-laptop__img">
+        <img src="./images/illustration-laptop-desktop.svg" alt="Laptop Illustration" class="section-laptop__img-desktop">
+        <img src="./images/illustration-laptop-mobile.svg" alt="Laptop Illustration for mobile devices" class="section-laptop__img-mobile">
       </div>
 
       <div class="section-laptop__text">
@@ -169,6 +181,7 @@
         <li class="footer__nav__item"><a href="#" class="footer__nav__link">Contact</a></li>
         <li class="footer__nav__item"><a href="#" class="footer__nav__link">Newsletter</a></li>
         <li class="footer__nav__item"><a href="#" class="footer__nav__link">LinkedIn</a></li>
+
       </ul>
   </footer>
 

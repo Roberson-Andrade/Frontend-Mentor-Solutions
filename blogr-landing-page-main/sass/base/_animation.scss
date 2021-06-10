@@ -2,12 +2,23 @@
     opacity: 0;
     transform: translateX(10rem);
     transition: all 1s;
+    
+    @include respond(tab-land) {
+        transform: translateX(0rem);
+        opacity: 1;
+    }
 }
 
 [data-anime="left"] {
     opacity: 0;
     transform: translateX(-10rem);
     transition: all 1s;
+
+    @include respond(tab-land) {
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+    
 }
 
 [data-anime].animate {
