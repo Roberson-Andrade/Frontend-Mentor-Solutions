@@ -9,3 +9,13 @@
 body {
     box-sizing: border-box;
 }
+
+.attribution { 
+    display: block;
+    font-size: 1.4rem; 
+    text-align: center; 
+    color: var(--color-white);
+    background-color: var(--color-footer-bg);
+}
+
+.attribution a { color: hsl(228, 45%, 60%); }

@@ -20,7 +20,6 @@
     transition: all .2s;
 
     @include respond(tab-land) {
-
         position: relative;
         background-color: rgba(hsl(207, 13%, 34%), .1);
 
@@ -48,7 +47,6 @@
         @include respond(tab-land) {
             color:rgba(hsl(208, 49%, 10%), .8);
         }
-        
     }
 
     &__link,
@@ -56,7 +54,6 @@
     &__link:visited {
         display: inline-block;
         text-decoration: none;
- 
     }
 
     &__link:active {

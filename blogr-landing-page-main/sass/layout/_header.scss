@@ -1,5 +1,4 @@
 .header {
-    
     display: flex;
     flex-direction: column;
     background-image: url('../images/bg-pattern-intro.svg'), linear-gradient(to right, var(--color-bg-very-light), var(--color-bg-light));
@@ -43,10 +42,18 @@
                 width: 90%;
                 position: absolute;
                 padding: 1rem;
-                top: 40%;
+                top: 60%;
                 left: 50%;
                 
                 transform: translate(-50%, -50%);
+            }
+
+            @include respond(phone) {
+                top: 55%;
+            }
+
+            @include respond(small-phone) {
+                top: 50%;
             }
         }
 
@@ -68,7 +75,7 @@
             }
 
             & .header__nav__link--active {
-                color:hsl(208, 49%, 10%);
+                color:var(--color-white);
                 border-bottom: 2px solid var(--color-white);
 
                 @include respond(tab-land) {
@@ -106,7 +113,6 @@
             opacity: 1;
             visibility: visible;
             transform: translateY(0); 
-
         }
 
         &__link--active ~ &__arrow-light,
@@ -172,6 +178,4 @@
             visibility: none;
         }
     }
-
-    
 }

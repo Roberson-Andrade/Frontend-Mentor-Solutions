@@ -1,27 +1,52 @@
 .footer {
     display: flex;
-    justify-content: space-around;
     background-color: var(--color-footer-bg);
     padding: 6rem 25rem 6rem 4rem;
-
     border-radius: 0 10rem 0 0;
-    height: 40vh;
 
-    &__logo-box {
-
+    @include respond(tab-port) {
+        padding: 6rem 4rem;
     }
 
-    &__logo {
+    @include respond(phone) {
+        flex-direction: column;
+        align-items: center;
+    }
 
+    &__logo-box {
+        @include respond(phone) {
+            margin-bottom: 2rem;
+        }
     }
 
     &__nav {
         list-style: none;
 
+
+        @include respond(phone) {
+            margin-bottom: 3rem;
+        }
+
+        &__container {
+            display: flex;
+            justify-content: space-around ;
+            width: 100%;
+
+            @include respond(phone) {
+                margin-bottom: 2rem;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
         &__item {
             padding: .7rem .5rem;
             color: var(--color-footer-text);
-
+            
+            @include respond(phone) {
+                text-align: center;
+            }
+            
             &:first-child {
                 color: var(--color-white);
                 font-weight: 600;

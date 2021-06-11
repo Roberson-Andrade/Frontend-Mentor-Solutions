@@ -1,7 +1,7 @@
 
 function dropdownButton() {
     const navBtns = document.querySelectorAll('.header__nav__link:not(:last-child)')
-    console.log()
+
     navBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             if(!btn.classList.contains('header__nav__link--active')) {
@@ -13,9 +13,7 @@ function dropdownButton() {
     
             } else {
                 btn.classList.remove('header__nav__link--active')
-    
             }
-            
         })
     })
 }
@@ -23,7 +21,6 @@ function dropdownButton() {
 function hamburgerButton() {
     const hamburgerBtn = document.querySelector('.header__hamburger-button')
     const navList = document.querySelector('.header__nav__list')
-    console.log(navList)
 
     hamburgerBtn.addEventListener('click', () => {
         if(!navList.classList.contains('header__nav__list--active')) {
@@ -33,7 +30,13 @@ function hamburgerButton() {
             navList.classList.remove('header__nav__list--active')
             hamburgerBtn.classList.remove('header__hamburger-button--active')
         }
+        
         console.log('ninja')
+    })
+
+    window.addEventListener('resize', () => {
+         navList.classList.remove('header__nav__list--active')
+            hamburgerBtn.classList.remove('header__hamburger-button--active')
     })
 }
 
