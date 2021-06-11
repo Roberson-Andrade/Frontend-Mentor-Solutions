@@ -21,8 +21,8 @@ This is a solution to the [Blogr landing page challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![Desktop Version](./design/my-desktop-design.PNG)
-![Mobile Version](./design/my-mobile-design.PNG)
+![Desktop Version](./design/my-desktop-design.png)
+![Mobile Version](./design/my-mobile-design.png)
 
 ### Links
 
